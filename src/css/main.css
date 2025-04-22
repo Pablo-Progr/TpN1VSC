@@ -1,3 +1,7 @@
+.backgroundMain{
+    margin-bottom: 100px;
+}
+
 .card{
     background-color: #aeacac;
     border-radius: 8px;
@@ -8,11 +12,22 @@
     justify-content: center;
 }
 
+
+.containerFoto{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.containerInfo{
+    width: 70%;
+}
+
+
 .fotoCard{
     width: 200px;
     border-radius: 50%;
     padding: 16px;
     margin: 16px;
     display: flex;
-    justify-content: center;
 }

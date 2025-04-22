@@ -6,20 +6,26 @@ const Main = (props) => {
 
   return (
     <>
-       <div className='backgroundMain'>
+      <div className='backgroundMain'>
+
         <div className='card'>
-          <div>
+
+          <div className='containerFoto'>
             <img className='fotoCard' src={img} alt="" />
           </div>
-          <div>
-            <h2>Nombre: {props.persona.nombre} {props.persona.apellido}</h2>
-            <h2>Edad: {props.persona.edad}</h2>
-            <h2>Mail: {props.persona.email}</h2>
-            <h2>Descripcion: {props.persona.descripcion}</h2>
+
+          <div className='containerInfo'>
+              <h2>Sobre Mi</h2>
+              <br />
+              <h3>{props.persona.descripcion}</h3>
+              <br />
+              <h3>Edad: {props.persona.edad}</h3>
+              <br />
+              <h3>Mail: {props.persona.email}</h3>
           </div>
         </div>
-      </div> 
-        
+      </div>
+
     </>
   )
 }

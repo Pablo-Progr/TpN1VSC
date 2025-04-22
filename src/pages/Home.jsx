@@ -10,7 +10,7 @@ const Home = () => {
     apellido: "Dominguez",
     edad: "25",
     email: "pablodominguez@gmail.com",
-    descripcion: "Desarrollador web full stack y estudiante de programacion de la FRT, tengo conocimiento en React, Node.js y MongoDB. Me gusta aprender nuevas tecnologías y mejorar mis habilidades.",
+    descripcion: "Desarrollador web full stack y estudiante de programacion de la FRT, tengo conocimiento en React, Node.js y MongoDB. Me gusta aprender nuevas tecnologías y mejorar mis habilidades. En mi tiempo libre disfruto de la lectura, el deporte, escuchar musica y pasar el rato con amigos.",
     }
 
   return (
