@@ -8,19 +8,15 @@ import '../css/Footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='containerFooter'>
       <hr />
-      <div className='containerFooter'>
+      <div>
         <a href=""><TiSocialInstagram  className='icon'/></a>
         <a href=""><TiSocialLinkedin  className='icon'/></a>
         <a href=""><TiSocialGithub  className='icon'/></a>
         <a href=""><TiSocialFacebook className='icon'/></a>
-        
-        
-        
-        
       </div>
-        
+        <p>&copy; Todos los derechos reservados</p>
     </div>
   )
 }

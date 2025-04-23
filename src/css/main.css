@@ -35,3 +35,34 @@
     margin: 16px;
     display: flex;
 }
+
+button{
+    background-color: rgb(21, 96, 181);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px black;
+}
+
+button:hover{
+    background-color: rgb(31, 92, 16);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px black;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+
+}

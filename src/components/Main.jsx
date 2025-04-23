@@ -7,7 +7,6 @@ const Main = (props) => {
   return (
     <>
       <div className='backgroundMain'>
-
         <div className='card'>
 
           <div className='containerFoto'>
@@ -24,6 +23,8 @@ const Main = (props) => {
               <h3>Mail: {props.persona.email}</h3>
           </div>
         </div>
+
+        <button>Mis proyectos</button>
       </div>
 
     </>
